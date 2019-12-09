@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.header-nav {
+  background-color: coral;
+  opacity: 90%;
+  height: 110px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.logo-style {
+  padding-top: 30px;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.logo-img {
+  background-image: url(../src/components/logo.png);
+  background-size: 100% 100%;
+  height: 40px;
+  width: 130px;
+  float: right;
+  margin-top: 32px;
+  margin-right: 10px;
+}
+
+.back-button {
+  float: right;
+  margin-top: -25px;
+  color: #fff;
+}
+
+.sort-by {
+  position: fixed;
+  right: 10px;
+  top: 120px;
+}
+
+.band-bg {
+  background-image: url('https://www.culturainglesacuritiba.com.br/wp-content/uploads/2019/01/Clássicos-do-Rock-Inglês-Pink-Floyd-Cultura-Inglesa.jpg');
+  background-size: cover;
+  height: 400px;
+}
+
+.artist-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  color: #fff;
+  margin: -115px auto;
+  text-align: center;
+}
+
+.artist-avatar {
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  margin-top: 130px;
+}
+
+.artist-stat {
+  height: 50px;
+  font-size: 11px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 2%;
+  color: #8c8c8c;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.artist-description {
+  margin: -30px 15px;
+  text-align: justify;
+}
+
+.search-items-body {
+  margin-top: 140px;
+}
+
+.search-artist-item {
+  text-align: left;
+}
+
+.search-avatar-img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.search-header-nav {
+  background-color: coral;
+  z-index: 100;
+  height: 110px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.search-header-nav input {
+  margin-top: 38px;
+  margin-left: -10px;
+  font-size: 20px;
+  border-radius: 10px;
+  float: left;
+  text-align: end;
+}
+
+.display-artist-name {
+  width: 200px;
+  position: absolute;
+  margin-top: -55px;
+  margin-left: 65px;
+}
+
+.display-plays {
+  color: #8c8c8c;
+  font-size: 10px;
+  width: 110px;
+  margin-left: 65px;
+  margin-top: -10px;
+}
+
+.item-header {
+  font-size: 14px;
+  width: 130px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-top: -42;
+  float: right;
+
+}
+
+.item-list-img {
+  width: 80px;
+}
+
+.item-list {
+  font-size: 10px;
+  width: 75px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
